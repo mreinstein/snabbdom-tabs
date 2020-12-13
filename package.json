@@ -1,6 +1,6 @@
 {
   "name": "snabbdom-tabs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a snabbdom compatible tab panel implementation",
   "type": "module",
   "main": "index.js",
