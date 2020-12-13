@@ -1,4 +1,4 @@
-import html from 'snabby'
+import html from 'https://cdn.skypack.dev/snabby'
 
 
 const css = `

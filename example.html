@@ -1,34 +1,27 @@
-# snabbdom-tabs
+<!doctype html>
+<html>
+<head>
+    <title>Snabbom Tabs panel</title>
+    <meta name=theme-color content=#303F9F><meta name=viewport content="width=device-width,minimum-scale=1">
+    <style>
+        body {
+          font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+          background-color: whitesmoke;
+          padding: 10px;
+        }
 
-a tab panel implemented in snabbdom
+    </style>
+</head>
+<body>
 
-![alt text](example.png "screenshot")
+<main> </main>
 
+<script type="module">
 
-## features
-
-* data oriented, functional design
-* tiny! (~100 lines of code)
-
-
-## usage
-
-requires node >= v12.17 or a browser that supports the es module format.
-
-
-via `npm`:
-```javascript
-import html from 'snabby'
-import tabs from 'snabbdom-tabs'
-```
-
-via a pure es module (browser or `deno`):
-```javascript
 import html from 'https://cdn.skypack.dev/snabby'
-import tabs from 'https://cdn.skypack.dev/tabs'
-```
+import tabs from './index.js'
 
-```javascript
+
 let currentVnode = document.querySelector('main') // where to inject the tabs panel
 
 const model = tabs.init({
@@ -57,9 +50,8 @@ function update () {
 
 
 update()
-```
 
+</script>
 
-# references
-
-The tab panel css and html was modified from https://www.digitalocean.com/community/tutorials/js-tabs
+</body>
+</html>
