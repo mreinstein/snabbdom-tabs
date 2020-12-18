@@ -25,7 +25,7 @@ import tabs from 'snabbdom-tabs'
 via a pure es module (browser or `deno`):
 ```javascript
 import html from 'https://cdn.skypack.dev/snabby'
-import tabs from 'https://cdn.skypack.dev/tabs'
+import tabs from 'https://cdn.skypack.dev/snabbdom-tabs'
 ```
 
 ```javascript
