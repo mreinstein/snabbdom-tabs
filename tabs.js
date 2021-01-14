@@ -26,7 +26,8 @@ const css = `
   flex-grow:1;
   padding: .375rem;
   padding-left: 1em;
-  font-size:1.125rem;
+  font-size:0.7rem;
+  user-select: none;
   border-right: 1px solid #e0e0e0;
   border-radius: 4px;
 }
